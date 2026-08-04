@@ -1,0 +1,165 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pot.css">
+</head>
+<body>
+   <header class="navbar">
+  <div class="logo">ARTISAN ATELIER</div>
+  <nav class="nav-container">
+    <ul class="nav-links">
+      <li><a href="index.html" class="nav-link active">Home</a></li>
+      <li><a href="pot.html" class="nav-link">Portfolio</a></li>
+      <li><a href="contact.html" class="nav-link">Contact</a></li>
+    </ul>
+    <a href="#" class="nav-actions">Book Consultation</a>
+    
+  </nav>
+  <div class="hamburger">=</div>
+</header>
+<div class="sidebar"></div>
+  
+
+<main class="portfolio-page">
+  
+  <!-- Section 1: Portfolio Hero / Featured Project Banner -->
+  <section class="portfolio-hero">
+    <div class="hero-bg-container">
+      <img src="pk2.jpg" alt="Featured Project: The Forest Retreat" class="hero-bg-img">
+      
+      <!-- Slide Indicator Top Right -->
+      <div class="slide-count">03/05</div>
+      
+      <!-- Frosted Glass Card Overlay -->
+      <div class="glass-card">
+        <h1 class="glass-title">Our Masterpieces</h1>
+        <p class="glass-description">
+          A curated gallery of spaces where architectural rigor meets unbridled creative abundance. Explore our bespoke interior transformations.
+        </p>
+        <a href="#" class="btn-primary">Start Your Project &rarr;</a>
+      </div>
+
+      <!-- Hero Navigation Arrows -->
+      <div class="hero-nav flex-between">
+        <div class="nav-left">
+          <button class="nav-arrow">&larr;</button>
+          <button class="nav-arrow">&rarr;</button>
+        </div>
+        <div class="nav-right">
+          <button class="nav-arrow">&rarr;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section 2: Portfolio Filter Bar -->
+  <section class="filter-section">
+    <div class="filter-bar">
+      <span class="filter-label">FILTER PORTFOLIO:</span>
+      <div class="filter-buttons">
+        <button class="filter-btn active">All</button>
+        <button class="filter-btn">Living Rooms</button>
+        <button class="filter-btn">Bedrooms</button>
+        <button class="filter-btn">Kitchens</button>
+        <button class="filter-btn">Offices</button>
+      </div>
+    </div>
+  </section>
+  <!-- Section 3: Portfolio Grid -->
+      <section class="gallery-section">
+        <div class="gallery-grid">
+          
+          <!-- Grid Card 1 -->
+          <article class="gallery-card">
+            <div class="card-image">
+              <img src="p4.jpg" alt="Living Room Transformation">
+            </div>
+            <!-- <div class="card-details">
+              <h3>The Emerald Lounge</h3>
+              <p>Living Room</p>
+            </div> -->
+          </article>
+
+          <!-- Grid Card 2 -->
+          <article class="gallery-card">
+            <div class="card-image ">
+              <img src="k1.jpg" alt="Rustic Master Bedroom">
+            </div>
+            <div class="card-details">
+              <h3>Artisan Sanctuary</h3>
+              <p>Bedrooms</p>
+            </div>
+          </article>
+
+          <!-- Grid Card 3 -->
+          <article class="gallery-card">
+            <div class="card-image">
+              <img src="k1.jpg" alt="Bespoke Kitchen & Dining">
+            </div>
+            <div class="card-details">
+              <h3>Modern Heirloom</h3>
+              <p>Kitchens</p>
+            </div>
+          </article>
+
+        </div>
+    </section>
+</main>
+    <footer class="site-footer">
+  <div class="footer-container">
+    <!-- Brand Column -->
+    <div class="footer-col brand-col">
+      <h2 class="footer-logo">ARTISAN<br>ATELIER</h2>
+      <p class="footer-tagline">
+        Creating spaces that tell your story through artisanal maximalism and bespoke design.
+      </p>
+    </div>
+
+    <!-- Explore Column -->
+    <div class="footer-col">
+      <h3 class="footer-heading">Explore</h3>
+      <ul class="footer-links">
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Careers</a></li>
+      </ul>
+    </div>
+
+    <!-- Connect Column -->
+    <div class="footer-col">
+      <h3 class="footer-heading">Connect</h3>
+      <ul class="footer-links">
+        <li><a href="#">Newsletter</a></li>
+        <li><a href="#">Socials</a></li>
+      </ul>
+    </div>
+
+    <!-- Legal Column -->
+    <div class="footer-col">
+      <h3 class="footer-heading">Legal</h3>
+      <ul class="footer-links">
+        <li><a href="#">Terms</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Copyright Bottom Bar -->
+  <div class="footer-bottom">
+    <p>&copy; 2024 Artisan Atelier. All Rights Reserved.</p>
+  </div>
+</footer>
+
+  
+
+
+ <script>
+    const hamburgerBtn =document.querySelector('.hamburger')
+    const sidebar =document.querySelector('.sidebar')
+
+    hamburgerBtn.addEventListener('click',() =>{
+      sidebar.classList.toggle('active');
+    })
+  </script
+</body>
+</html>
