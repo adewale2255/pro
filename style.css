@@ -96,20 +96,20 @@ header {
 
   height: 450px;
   /* max-width: 500px; */
-  background-color:rgb(253, 149, 12);
+  background-color:rgb(226, 223, 220);
   /* background-color: red; */
   color: white;
   position: fixed;
   overflow: hidden;
   /* top: 70px; */
   right: -110%;
-  width: 40%;
+  width: 25%;
   z-index: 1000;
 }
-.dropcontent-wrapper{
-  overflow: auto;
-  height: 100%;
-  padding: 40px 20px;
+.nav a {
+  display: block;
+  padding: 5px;
+  
 }
 
 .sidebar.active{

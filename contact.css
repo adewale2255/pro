@@ -99,14 +99,15 @@ header {
   position: fixed;
   overflow: hidden;
   right: -110%;
-  width: 40%;
+  width: 25%;
   z-index: 1000;
 }
-.dropcontent-wrapper{
-  overflow: auto;
-  height: 100%;
-  padding: 40px 20px;
+.nav a {
+  display: block;
+  padding: 5px;
+  
 }
+
 
 .sidebar.active{
   right: 10px;
