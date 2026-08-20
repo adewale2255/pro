@@ -95,6 +95,7 @@ header {
   /* max-width: 500px; */
   background-color:rgb(252, 248, 248);
   /* background-color: red; */
+  border-radius: 5px;
   color: white;
   position: fixed;
   overflow: hidden;
@@ -103,10 +104,19 @@ header {
   z-index: 1000;
 }
 .nav a {
+  color: white;
+  background-color: #b3411e;
+  margin: 5px;
+  border-radius: 8px;
+  text-decoration: none;
   display: block;
   padding: 5px;
   
 }
+.nav a:hover{
+  background-color: #4a4a4a;
+}
+
 
 
 .sidebar.active{

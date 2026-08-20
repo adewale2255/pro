@@ -99,6 +99,7 @@ header {
   background-color:rgb(226, 223, 220);
   /* background-color: red; */
   color: white;
+  border-radius: 5px;
   position: fixed;
   overflow: hidden;
   /* top: 70px; */
@@ -106,8 +107,19 @@ header {
   width: 25%;
   z-index: 1000;
 }
- 
-
+.nav a {
+  color:white;
+  background-color: #b3411e;
+  margin: 5px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  
+}
+.nav a:hover{
+  background-color: #4a4a4a;
+}
 
 .sidebar.active{
   right: 5px;
@@ -117,27 +129,6 @@ header {
 .sidebar:not(.active){
   right: -100%;
   transition: all 0.4s linear;
-}
-.sidedrop{
-            list-style-type:none;
-            margin: 0%;
-            padding: 0%;
-            background-color: #f1f1f1;
-            width: 200px;
-            height: 100vh;
-            position: fixed;
-            overflow: none;
-            left: 0;
-        }
-        .list a{
-            text-decoration: none;
-            color: black;
-            padding: 8px 16px;
-            display: block;
-        }
-        .list a:hover{
-            background-color: #555555;
-            color: white;
 }
 
 
