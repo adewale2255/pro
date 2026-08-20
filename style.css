@@ -106,11 +106,8 @@ header {
   width: 25%;
   z-index: 1000;
 }
-.nav a {
-  display: block;
-  padding: 5px;
-  
-}
+ 
+
 
 .sidebar.active{
   right: 5px;
@@ -120,6 +117,27 @@ header {
 .sidebar:not(.active){
   right: -100%;
   transition: all 0.4s linear;
+}
+.sidedrop{
+            list-style-type:none;
+            margin: 0%;
+            padding: 0%;
+            background-color: #f1f1f1;
+            width: 200px;
+            height: 100vh;
+            position: fixed;
+            overflow: none;
+            left: 0;
+        }
+        .list a{
+            text-decoration: none;
+            color: black;
+            padding: 8px 16px;
+            display: block;
+        }
+        .list a:hover{
+            background-color: #555555;
+            color: white;
 }
 
 
