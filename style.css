@@ -266,8 +266,9 @@ header {
   display: block;
 }
 .studio-section {
-  padding: 5rem 4rem;
+  /* padding: 5rem 4rem; */
   background-color: #ccc7b746;
+  margin: 10px;
 }
 
 .studio-container {
@@ -276,7 +277,7 @@ header {
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   max-width: 1280px;
-  margin:  auto;
+  margin: auto;
 }
 
 /* Left Card Styling */
