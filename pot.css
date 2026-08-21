@@ -482,6 +482,14 @@ header {
 
 }
 @media screen and (max-width: 480px) {
+   .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 1.7rem;
+  background-color: #fcfbf9;
+  border-bottom: 1px solid #eaeaea;
+}
   .gallery-grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -549,6 +557,12 @@ header {
 
 .filter-btn:hover:not(.active) {
   background-color: #e4e0d7;
+}
+.site-footer {
+  background-color: #052e21;
+  color: #ffffff;
+  padding: 2.4rem 1.4rem 1.4rem;
+  margin-top: 5px;
 }
 
   .footer-container {

@@ -137,7 +137,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 4rem 4rem 6rem;
+  /* padding: 4rem 4rem 6rem; */
   background-color: #fcfbf9;
   overflow: hidden;
   gap: 3rem;
@@ -266,7 +266,7 @@ header {
   display: block;
 }
 .studio-section {
-  /* padding: 5rem 4rem; */
+  /* padding: 20px; */
   background-color: #ccc7b746;
   /* margin: 0,0,10px; */
 }
@@ -351,7 +351,7 @@ header {
   background-color: #052e21;
   color: #ffffff;
   padding: 5rem 4rem 2rem;
-  margin-top: 8px;
+  /* margin-top: 8px; */
 }
 
 .footer-container {
@@ -479,6 +479,7 @@ header {
   /* overflow: hidden; */
   gap: 3rem;
 }
+
 .hero-content {
   position: relative;
   z-index: 2;
@@ -498,7 +499,44 @@ header {
     grid-template-columns: repeat(1, 1fr); /* Becomes two columns on tablets */
     gap: 40px 0;
   }
-
-
-  
 }
+@media screen and (max-width: 475px){
+  .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 1.7rem;
+  background-color: #fcfbf9;
+  border-bottom: 1px solid #eaeaea;
+}
+
+  .hero-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 1.5rem 2.5rem;
+  background-color: #fcfbf9;
+  overflow: hidden;
+  gap: 3rem;
+}
+  
+
+.content-card {
+  background-color: #b3411e;
+  color: #ffffff;
+  padding: 2rem 1.5rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.site-footer {
+  background-color: #052e21;
+  color: #ffffff;
+  padding: 2.4rem 1.4rem 1.4rem;
+  margin-top: 5px;
+}
+
+}
+

@@ -594,6 +594,14 @@ header {
 }
 
 @media (max-width: 500px) {
+   .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 1.7rem;
+  background-color: #fcfbf9;
+  border-bottom: 1px solid #eaeaea;
+}
   .insta-card {
     flex: 1 1 100%;
   }
@@ -702,7 +710,13 @@ header {
   .insta-card {
     flex: 1 1 100%;
   }
-   .footer-container {
+  .site-footer {
+    background-color: #052e21;
+    color: #ffffff;
+    padding: 2.4rem 1.4rem 1.4rem;
+    margin-top: 5px;
+  }
+  .footer-container {
     grid-template-columns: repeat(1, 1fr); /* Becomes two columns on tablets */
     gap: 40px 0;
   }
